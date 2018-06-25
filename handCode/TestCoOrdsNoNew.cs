@@ -8,7 +8,6 @@ public struct CoOrds{
 }
 
 class TestCoOrdsNoNew{
-	
 	static void Main(){
 		CoOrds coords1;
 		
