@@ -10,7 +10,6 @@ namespace sqlClient
         {
 			string connectionString = "Data Source=(local); Initial Catalog=Northwind; Integrated Security=true";
 			string queryString = "SELECT ProductID, UnitPrice, ProductName from dbo.products WHERE UnitPrice > @pricePoint ORDER by UnitPrice DESC;";
-			
 			int paramValue = 5;
 			
 			using(SqlConnection connection = new SqlConnection(ConnectionString))
