@@ -44,7 +44,6 @@ public class AbstractBridge : IAbstractBridge{
 	public void callMethodOne(){
 		this.bridge.functionOne();
 	}
-	
 	public void callMethodTwo(){
 		this.bridge.functionTwo();
 	}
