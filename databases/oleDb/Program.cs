@@ -16,7 +16,7 @@ namespace oleDb
 					+ "WHERE UnitPrice > ? "
 					+ "ORDER BY UnitPrice DESC;";
 
-			int paramValue = 5;
+			int paramValue = 6;
 
 			using (OleDbConnection connection =
 				new OleDbConnection(connectionString))
