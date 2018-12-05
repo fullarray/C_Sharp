@@ -10,7 +10,6 @@ public class LinkedListCollectionsGenericT2{
 		theorems.AddLast("Secure Multiparty Computation");
 		theorems.AddLast("Verifiable Secret Sharing");
 		theorems.AddLast("Generalized Secret Sharing");
-		
 		if(theorems.Count > 0){
 			Console.WriteLine("Theorem {0} is first.", theorems.First.Value);
 			Console.WriteLine("Theorem {0} is last.", theorems.Last.Value);
