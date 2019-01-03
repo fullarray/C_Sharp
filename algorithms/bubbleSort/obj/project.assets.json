@@ -692,7 +692,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": { }
         }
       },
       "warningProperties": {
