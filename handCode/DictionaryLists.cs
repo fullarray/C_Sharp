@@ -17,7 +17,6 @@ public class DictionaryLists{
 		}
 		
 		Console.WriteLine("For key = \"rtf\", value = {0}.", openWith["rtf"]);
-		
 		openWith["rtf"] = "winword.exe";
 		Console.WriteLine("For key = \"rtf\", value = {0}.", openWith["rtf"]);
 		
