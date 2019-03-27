@@ -7,7 +7,7 @@ namespace jsonParse
     {
         static void Main(string[] args)
         {
-            var exampel1 = @"{""name"": ""John Doe"",""age"":20}";
+            var exampel1 = @"{""name"": ""Jane Doe"",""age"":18}";
 			var JSONObj = new JavaScriptSerializer().Deserialize<Dictionary<string, string>> (example1);
 			console.WriteLine("Name: "+ JSONObj["name"]);
 			console.WriteLine("Age: "+ JSONObj["age"]);
