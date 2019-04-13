@@ -13,7 +13,6 @@ namespace app4
 			}
 			Console.WriteLine();
 		}
-		
         static void Main(string[] args)
         {
 			ArrayList programmingLang = new ArrayList();
