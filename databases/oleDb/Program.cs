@@ -10,7 +10,6 @@ namespace oleDb
         {
             
 			string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Data\\Northwind.mdb;User Id=admin;Password=;";
-			
 			string queryString =
 				"SELECT ProductID, UnitPrice, ProductName from products "
 					+ "WHERE UnitPrice > ? "
