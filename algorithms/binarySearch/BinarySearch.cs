@@ -20,7 +20,6 @@ namespace BinarySearch
             }
             Array.Sort(data);
         }
-
         // Perform a binary search on array
         public int BinarySearch(int searchElement)
         {
