@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 
 namespace app1
@@ -16,7 +16,6 @@ namespace app1
 			numbers.Add(45);
 			numbers.Add(10);
 			numbers.Add(new Empty{});
-			
 			foreach(object number in numbers){
 				Console.WriteLine(number);
 			}
