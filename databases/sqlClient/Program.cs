@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -10,7 +10,7 @@ namespace sqlClient
         {
 			string connectionString = "Data Source=(local); Initial Catalog=Northwind; Integrated Security=true";
 			string queryString = "SELECT ProductID, UnitPrice, ProductName from dbo.products WHERE UnitPrice > @pricePoint ORDER by UnitPrice DESC;";
-			int paramValue = 5;
+			int paramValue = 6;
 			
 			using(SqlConnection connection = new SqlConnection(ConnectionString))
 			{
