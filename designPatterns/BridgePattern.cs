@@ -4,7 +4,7 @@ public interface IBridge{
 }
 
 public class BridgeOne : IBridge{
-	#region IBridge Members
+	#regions IBridge Members
 	public void functionOne(){
 		throw new NotImplementedException();
 	}
