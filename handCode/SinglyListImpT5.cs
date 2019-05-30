@@ -13,7 +13,6 @@ public LinkedList(){
 	head = new Node();
 	current = head;
 }
-
 public void addAtLast(object data){
 	Node newNode = new Node();
 	newNode.Value = data;
@@ -21,7 +20,6 @@ public void addAtLast(object data){
 	current = newNode;
 	count++;
 }
-
 public void addAtStart(object data){
 	Node newNode = new Node(){
 		Value = data;
@@ -30,7 +28,6 @@ public void addAtStart(object data){
 	head.Next = newNode;
 	count++;
 }
-
 public void removeFromStart(){
 	if(count > 0){
 		head.Next = head.Next.Next;
