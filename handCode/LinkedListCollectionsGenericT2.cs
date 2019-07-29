@@ -15,7 +15,7 @@ public class LinkedListCollectionsGenericT2{
 			Console.WriteLine("Theorem {0} is last.", theorems.Last.Value);
 			Console.WriteLine("Theorems list: ");
 			foreach(String s in theorems){
-				Console.WriteLine("       {0}", s);
+				Console.WriteLine(" {0}", s);
 			}
 		}else{
 			Console.WriteLine("No theorems found. ");
