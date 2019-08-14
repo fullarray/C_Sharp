@@ -15,7 +15,6 @@ public class BuilderOne : IBuilder{
 	
 	#endregion
 }
-
 public class BuilderTwo : IBuilder{
 	#region IBuilder Members
 	
@@ -29,7 +28,6 @@ public class BuilderTwo : IBuilder{
 	
 	#endregion
 }
-
 public class Director{
 	public IBuilder CreateBuilder(int type){
 		IBuilder builder = null;
