@@ -14,7 +14,8 @@ namespace app3
 			numbers.AddLast(41);
 			numbers.AddLast(6);
 			numbers.AddLast(1564);
-			
+			numbers.AddLast(12);
+
 			LinkedListNode<int> node = numbers.Find(41);
 			numbers.AddBefore(node, 19);
 			
