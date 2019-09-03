@@ -1,14 +1,12 @@
 public abstract class Pizza{
 	public abstract double getPrice();
 }
-
 class ThickCrust : Pizza{
 	private double p_Price = 250.0;
 	public override double getPrice(){
 		return p_Price;
 	}
 }
-
 class ThinCrust : Pizza{
 	private double p_Price = 200.0;
 	
@@ -16,7 +14,6 @@ class ThinCrust : Pizza{
 		return p_Price;
 	}
 }
-
 public class Decorator : Pizza{
 	Pizza basePizza = null;
 	
@@ -34,7 +31,7 @@ public class OnionPizzaDecorator{}
 
 public class CheesePizzaDecorator{}
 
-//Drivers
+//Driver
 class PizzaDecoratorPattern{
 	static void Main(string[] args){
 		ThickCrust thickCrust = new ThickCrust();
