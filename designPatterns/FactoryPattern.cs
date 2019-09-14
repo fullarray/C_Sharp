@@ -4,13 +4,13 @@ public interface IPeople{
 
 public class CountryPeople : IPeople{
 	public string getName(){
-		return "Country guy.";
+		return "Country guy";
 	}
 }
 
 public class CityPeople : IPeople{
 	public string getName(){
-		return "City guy.";
+		return "City guy";
 	}
 }
 
