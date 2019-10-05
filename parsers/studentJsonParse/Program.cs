@@ -7,7 +7,7 @@ namespace studentJsonParse{
 			var student1 = @"{""id"": 1, 
 			                  ""firstname"": ""John"",
 							  ""lastname"": ""Doe"", 
-							  ""college"": ""Acme College"",
+							  ""college"": ""Acme Col"",
 							  ""studentid"": ""vb3234455"" }";
 			var student2 = @"{""id"": 2, 
 			                  ""firstname"": ""Maria"",
