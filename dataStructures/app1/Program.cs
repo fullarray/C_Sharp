@@ -6,10 +6,8 @@ namespace app1
     class Program
     {
 	class Empty{}
-		
         static void Main(string[] args)
-        {
-            ArrayList numbers = new ArrayList();
+        {            ArrayList numbers = new ArrayList();
 			numbers.Add(33);
 			numbers.Add(56);
 			numbers.Add(92);
