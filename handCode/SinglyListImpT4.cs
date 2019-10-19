@@ -2,13 +2,11 @@ public class Node{
 	public Node Next;
 	public object Value;
 }
-
 public class LinkedList{
 	private Node head;
 	private Node current;
 	public int count;
 }
-
 public LinkedList(){
 	head = new Node();
 	current = head;
