@@ -7,17 +7,14 @@ public class CountryPeople: IPeople{
 		return "Country man";
 	}
 }
-
 public class CityPeople: IPeople{
 	public string getName(){
 		return "City man";
 	}
 }
-
 public enum PeopleType{
 	COUNTRY, CITY
 }
-
 public class FactoryPatternR1{
 	public IPeople getPeople(PeopleType type){
 		IPeople person = null;
