@@ -2,18 +2,14 @@ using System;
 using System.Data;
 using System.Data.OleDb;
 namespace oleDb
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            
+{    class Program
+    {        static void Main(string[] args)
+        {            
 			string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Data\\Northwind.mdb;User Id=admin;Password=;";
 			string queryString =
 				"SELECT ProductID, UnitPrice, ProductName from products "
 					+ "WHERE UnitPrice > ? "
 					+ "ORDER BY UnitPrice DESC;";
-
 			int paramValue = 6;
 
 			using (OleDbConnection connection =
