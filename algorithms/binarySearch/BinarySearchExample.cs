@@ -11,10 +11,8 @@ namespace BinarySearch
         {
             int searchInt; // Search key
             int position;  // Location of search
-
             BinaryArray searchArray = new BinaryArray(15);
             Console.WriteLine(searchArray);
-
             // Prompt and input first int from user
             Console.Write("Please enter an integer value (-1 to quit): ");
             searchInt = Convert.ToInt32(Console.ReadLine());
