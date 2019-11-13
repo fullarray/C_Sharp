@@ -5,7 +5,7 @@ namespace app4
 {
     class Program
     {
-		//This method simply prints all values stored in list.
+		//This method simply prints all values stored in lists.
 		public static void printValues(IEnumerable langs){
 			int i = 1;
 			foreach(Object obj in langs){
