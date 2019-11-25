@@ -1,7 +1,6 @@
 using System;
 
 namespace GenericLinkedListT1{
-
 	public class Program{
 		static void main(string[] arg){
 			GenericList<int> numberList = GenericList<int>();
@@ -10,7 +9,6 @@ namespace GenericLinkedListT1{
 			numberList.addNode(7);
 			numberList.addNode(58);
 			int intVal = numberList.GetLast();
-			
 			Console.WriteLine(intVal);
 			
 			GenericList<int> numberList2 = new GenericList<int>();
