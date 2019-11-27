@@ -2,10 +2,9 @@
 using System.Collections;
 
 namespace app4
-{
-    class Program
+{class Program
     {
-		//This method simply prints all values stored in lists.
+		//This method simply prints all values stored in list.
 		public static void printValues(IEnumerable langs){
 			int i = 1;
 			foreach(Object obj in langs){
