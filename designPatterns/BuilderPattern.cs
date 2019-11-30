@@ -8,7 +8,6 @@ public class BuilderOne : IBuilder{
 	public string RunBuilderTaskOne(){
 		throw new ApplicationException("Task One");
 	}
-	
 	public string RunBuilderTaskTwo(){
 		throw new ApplicationException("Task Two");
 	}
