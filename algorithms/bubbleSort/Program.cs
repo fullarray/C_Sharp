@@ -1,9 +1,7 @@
 ﻿using System;
-
 // dotnet new console -o bubbleSort
 // cd bubbleSorts
 // dotnet run
-
 namespace bubbleSort
 {
     class Program
@@ -11,7 +9,7 @@ namespace bubbleSort
         static void Main(string[] args)
         {
             Console.WriteLine("Bubble Sort Implementation.\n");
-            int[] data = {1,2,4,5,6,7};
+            int[] data = {1,2,4,5,6,7,8};
             intArrayBubbleSort(data);
         }
 
