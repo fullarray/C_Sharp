@@ -3,10 +3,8 @@ using System.Data;
 using System.Data.SqlClient;
 
 namespace sqlClient
-{
-    class Program
-    {
-        static void Main(string[] args)
+{    class Program
+    {        static void Main(string[] args)
         {
 			string connectionString = "Data Source=(local); Initial Catalog=Northwind; Integrated Security=true";
 			string queryString = "SELECT ProductID, UnitPrice, ProductName from dbo.products WHERE UnitPrice > @pricePoint ORDER by UnitPrice DESC;";
