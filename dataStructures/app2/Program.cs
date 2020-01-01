@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-
 namespace app2
 {
     class Program
