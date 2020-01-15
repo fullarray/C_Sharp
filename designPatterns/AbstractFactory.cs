@@ -1,11 +1,15 @@
 public interface IFactoryOne{
 	IPeople GetPeople();
 }
+
+
 public class FactoryOne : IFactoryOne{
 	public IPeople GetPeople(){
 		return new CountryPeople();
 	}
 }
+
+
 public interface IFactoryTwo{
 	IProduct GetProduct();
 }
