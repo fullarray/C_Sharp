@@ -1,4 +1,4 @@
-﻿//Imports from web framework goes heres
+﻿//Imports from web framework goes here
 using System;
 
 namespace studentJsonParse{
