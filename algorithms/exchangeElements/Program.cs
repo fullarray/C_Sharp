@@ -1,9 +1,6 @@
-﻿using System;
-
+using System;
 //create command: dotnet new console exchangeElements
-
 //run command: dotnet run
-
 
 namespace exchangeElements
 {
