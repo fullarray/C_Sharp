@@ -1,4 +1,4 @@
-//structs
+//struct
 public struct CoOrds{
 	public int x, y;
 	public CoOrds(int p1, int p2){
@@ -6,9 +6,7 @@ public struct CoOrds{
 		y = p2;
 	}
 }
-
-class TextCoOrds{
-	
+class TextCoOrds{	
 	static void Main(){
 		CoOrds coords1 = new CoOrds();
 		CoOrds coords2 = new CoOrds(5,6);
