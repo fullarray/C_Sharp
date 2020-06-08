@@ -3,9 +3,7 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "Microsoft.NETCore.App/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
+        "type": "package", "dependencies": { "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
           "Microsoft.NETCore.Platforms": "2.0.0",
           "NETStandard.Library": "2.0.0"
         },
