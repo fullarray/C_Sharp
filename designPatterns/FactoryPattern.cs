@@ -1,23 +1,19 @@
 public interface IPeople{
 	string getName();
 }
-
 public class CountryPeople : IPeople{
 	public string getName(){
 		return "Country guy";
 	}
 }
-
 public class CityPeople : IPeople{
 	public string getName(){
 		return "City guy";
 	}
 }
-
 public enum PeopleType{
 	RURAL,URBAN;
 }
-
 public class FactoryPattern{
 	public IPeople getPeople(PeopleType type){
 		IPeople people = null;
