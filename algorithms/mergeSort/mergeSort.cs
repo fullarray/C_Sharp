@@ -4,8 +4,7 @@ namespace mergeSort
 {
     class mergeSort
     {
-
-        //Creating static methods to avoid making a 
+        //Creating static methods to avoid making
         //new declaration in main driver
         static public void MainMerge(int[] numbers, int left, int mid, int right)
         {
