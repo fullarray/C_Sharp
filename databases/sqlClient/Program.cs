@@ -11,8 +11,11 @@ namespace sqlClient
 			int paramValue = 6;
 			using(SqlConnection connection = new SqlConnection(ConnectionString))
 			{
+				
 				SqlCommand command = new SqlCommand(queryString, connection);
+				
 				command.Parameters.AddWithValue("@pricePoint". paramValue);
+				
 				try
 				{
 					connection.Open();
