@@ -2,7 +2,6 @@ public interface IBridge{
 	void functionOne();
 	void functionTwo();
 }
-
 public class BridgeOne : IBridge{
 	#regions IBridge Members
 	public void functionOne(){
@@ -14,7 +13,6 @@ public class BridgeOne : IBridge{
 	}
 	#endregion
 }
-
 public class BridgeTwo : IBridge{
 	#region IBridge Members
 	
