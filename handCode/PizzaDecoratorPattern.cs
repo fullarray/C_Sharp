@@ -2,10 +2,14 @@ public abstract class Pizza{
 	public abstract double getPrice();
 }
 class ThickCrust : Pizza{
+	
 	private double p_Price = 250.0;
+	
 	public override double getPrice(){
+	
 		return p_Price;
 	}
+	
 }
 class ThinCrust : Pizza{
 	private double p_Price = 200.0;
