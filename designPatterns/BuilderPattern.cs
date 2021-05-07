@@ -1,5 +1,7 @@
 public interface IBuilder{
+	
 	string RunBuilderTaskOne();
+	
 	string RunBuilderTaskTwo();
 }
 public class BuilderOne : IBuilder{
