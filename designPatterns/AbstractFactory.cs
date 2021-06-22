@@ -1,5 +1,7 @@
 public interface IFactoryOne{
+	
 	IPeople GetPeople();
+	
 }
 
 
