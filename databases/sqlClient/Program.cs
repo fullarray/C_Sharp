@@ -17,7 +17,6 @@ namespace sqlClient
 				SqlCommand command = new SqlCommand(queryString, connection);
 				
 				command.Parameters.AddWithValue("@pricePoint". paramValue);
-				
 				try
 				{
 					connection.Open();
