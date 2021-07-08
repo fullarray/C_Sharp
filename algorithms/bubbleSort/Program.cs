@@ -2,6 +2,7 @@
 // dotnet new console -o bubbleSort
 // cd bubbleSorts
 // dotnet run
+
 namespace bubbleSort
 {
     class Program
