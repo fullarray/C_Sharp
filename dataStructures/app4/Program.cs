@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-
 namespace app4
 {class Program
     {
